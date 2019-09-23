@@ -3,7 +3,7 @@
     <header-nav></header-nav>
     
     <!-- <keep-alive> -->
-      <router-view/>
+    <router-view/>
     <!-- </keep-alive> -->
     
     <footer-nav></footer-nav>

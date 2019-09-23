@@ -27,35 +27,11 @@ Vue.prototype.$ = Axios
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
+import 'babel-polyfill'
 
 Vue.use(VueAwesomeSwiper)
 Vue.use(ElementUI);
 
-//vuex   管理面包屑
-// import {getCrumbs,setCrumbs} from './util/utils'
-// import Vuex from 'vuex'
-// Vue.use(Vuex)
-// const store = new Vuex.Store({
-//     state: {
-//       crumbsArr: '',
-//       headClickType: ''
-//     },
-//     getters: {
-//         pathArr: (state) => {
-//             return state.crumbsArr
-//         }
-//     },
-//     mutations: {
-//       changeRoute(state, obj){
-//          setCrumbs(obj)
-//          state.crumbsArr = getCrumbs()
-//       },
-//       changeType(state, type){
-//           state.headClickType = type;
-//           console.log(state.headClickType)
-//       }
-//     }
-//   })
 
 /* eslint-disable no-new */
 new Vue({
